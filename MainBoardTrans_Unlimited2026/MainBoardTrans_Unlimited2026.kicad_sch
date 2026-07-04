@@ -11223,7 +11223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d7956e2-182e-4fbc-a781-1342a251a3ab")
-		(property "Reference" "J4"
+		(property "Reference" "M4"
 			(at 54.61 190.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11287,7 +11287,7 @@
 		(instances
 			(project "MainBoardTrans_Unlimited2026"
 				(path "/5d49f12a-b7fe-4d5f-b487-25d02c2ee0eb"
-					(reference "J4")
+					(reference "M4")
 					(unit 1)
 				)
 			)
@@ -11387,7 +11387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fd74ed5-af0a-4ce0-a657-f107404ba452")
-		(property "Reference" "J16"
+		(property "Reference" "M6"
 			(at 147.32 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11451,7 +11451,7 @@
 		(instances
 			(project "MainBoardTrans_Unlimited2026"
 				(path "/5d49f12a-b7fe-4d5f-b487-25d02c2ee0eb"
-					(reference "J16")
+					(reference "M6")
 					(unit 1)
 				)
 			)
@@ -12446,7 +12446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b58caf0-22ba-48b8-bfb6-bc281f1df614")
-		(property "Reference" "J5"
+		(property "Reference" "M5"
 			(at 76.2 180.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12510,7 +12510,7 @@
 		(instances
 			(project "MainBoardTrans_Unlimited2026"
 				(path "/5d49f12a-b7fe-4d5f-b487-25d02c2ee0eb"
-					(reference "J5")
+					(reference "M5")
 					(unit 1)
 				)
 			)
@@ -12845,7 +12845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51768b3b-0aef-447b-bd14-e7b3222eea47")
-		(property "Reference" "J2"
+		(property "Reference" "M2"
 			(at 34.29 190.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12909,7 +12909,7 @@
 		(instances
 			(project "MainBoardTrans_Unlimited2026"
 				(path "/5d49f12a-b7fe-4d5f-b487-25d02c2ee0eb"
-					(reference "J2")
+					(reference "M2")
 					(unit 1)
 				)
 			)
@@ -16570,7 +16570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5a4bbde-fe31-4e4e-ac6e-14d06c427b03")
-		(property "Reference" "J1"
+		(property "Reference" "M1"
 			(at 34.29 180.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16634,7 +16634,7 @@
 		(instances
 			(project "MainBoardTrans_Unlimited2026"
 				(path "/5d49f12a-b7fe-4d5f-b487-25d02c2ee0eb"
-					(reference "J1")
+					(reference "M1")
 					(unit 1)
 				)
 			)
@@ -16652,7 +16652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8d82298-438d-4e01-9115-5a1694da70ca")
-		(property "Reference" "J3"
+		(property "Reference" "M3"
 			(at 54.61 180.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16716,7 +16716,7 @@
 		(instances
 			(project "MainBoardTrans_Unlimited2026"
 				(path "/5d49f12a-b7fe-4d5f-b487-25d02c2ee0eb"
-					(reference "J3")
+					(reference "M3")
 					(unit 1)
 				)
 			)
