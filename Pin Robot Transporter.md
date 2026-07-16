@@ -1,11 +1,8 @@
 # Pin Robot Transporter
 
-Repositori ini berisi dokumentasi konfigurasi pin (pinout) untuk sistem kelistrikan dan kontrol Robot Transporter. Arsitektur robot ini menggunakan sistem dual-microcontroller, yaitu ESP32 DevKit V1 (sebagai pengolah data utama/sensor) dan STM32 Blue Pill (didedikasikan khusus untuk kontrol aktuator motor).
-
 ---
 
 ## 1. Komunikasi Serial (UART)
-Jalur komunikasi antara ESP32 dan STM32 menggunakan koneksi UART. Pastikan kabel disilang (RX ke TX, dan TX ke RX) serta kedua board memiliki jalur GND (Ground) yang sama.
 
 | Modul Kelistrikan | Pin RX | Pin TX | Keterangan |
 | :--- | :---: | :---: | :--- |
@@ -15,9 +12,6 @@ Jalur komunikasi antara ESP32 dan STM32 menggunakan koneksi UART. Pastikan kabel
 ---
 
 ## 2. Motor Driver (STM32 Blue Pill)
-Konfigurasi 6 buah Motor DC (M1 - M6) seluruhnya ditangani oleh STM32 untuk mendapatkan sinyal PWM dari Hardware Timer yang stabil.
-
-*F = Forward (Maju), B = Backward (Mundur).*
 
 | Komponen | Arah (Pin Driver) | Pin STM32 | Hardware Timer |
 | :--- | :--- | :---: | :--- |
@@ -30,8 +24,7 @@ Konfigurasi 6 buah Motor DC (M1 - M6) seluruhnya ditangani oleh STM32 untuk mend
 
 ---
 
-## 3. Servo & Aktuator (ESP32 Devkit V1)
-Konfigurasi pin untuk penggerak servo dan sistem pneumatik yang diatur langsung oleh ESP32.
+## 3. Servo 
 
 | Komponen | Label Pin | Pin ESP32 |
 | :--- | :--- | :--- |
@@ -44,8 +37,7 @@ Konfigurasi pin untuk penggerak servo dan sistem pneumatik yang diatur langsung 
 
 ---
 
-## 4. Sensor & Pembacaan Data (ESP32 Devkit V1)
-Sistem pembacaan sensor menggunakan ESP32. Sensor berbasis komunikasi I2C berbagi jalur yang sama (SDA: 21, SCL: 22).
+## 4. Sensor 
 
 | Komponen | Fungsi / Jalur | Pin ESP32 | Keterangan |
 | :--- | :--- | :--- | :--- |
@@ -54,3 +46,11 @@ Sistem pembacaan sensor menggunakan ESP32. Sensor berbasis komunikasi I2C berbag
 | **VL53L0X** | SDA<br>SCL<br>GPIO1 | 21<br>22<br>23 | Sensor Jarak (Time-of-Flight) |
 | **ID-BAT** | OUT | 13 | Indikator / Pembacaan Baterai |
 | **Current Sensor** | OUT | 35 | Pembacaan Arus (Input Analog) |
+
+## 5. selonoid
+
+| Komponen | Label Pin | Pin ESP32 |
+| :--- | :--- | :--- |
+| **Pneumatik** | Selenoid | 5 |
+
+---
