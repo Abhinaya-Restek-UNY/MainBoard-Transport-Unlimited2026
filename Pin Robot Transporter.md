@@ -45,7 +45,7 @@
 | **BNO085** | SDA<br>SCL<br>INT<br>RST | 21<br>22<br>19<br>18 | Sensor Orientasi Absolut |
 | **VL53L0X** | SDA<br>SCL<br>GPIO1 | 21<br>22<br>23 | Sensor Jarak (Time-of-Flight) |
 | **ID-BAT** | OUT | 13 | Indikator / Pembacaan Baterai |
-| **Current Sensor** | OUT | 35 | Pembacaan Arus (Input Analog) |
+| **Current Sensor** | OUT | 32 | Pembacaan Arus (Input Analog) |
 
 ## 5. selonoid
 
